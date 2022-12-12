@@ -3,4 +3,4 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 	Text = "script updating join the discord",
 })
 wait(5)
-game.Players.LocalPlayer:Kick(".gg/KBsGbMXykw")s
+game.Players.LocalPlayer:Kick(".gg/KBsGbMXykw")
