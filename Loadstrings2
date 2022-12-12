@@ -1,6 +1,6 @@
 game.StarterGui:SetCore("SendNotification", {
 Title = "sf#0001";
-Text = "script is updating join the discord";
+Text = "script is updating join the discord u will get kicked in 5 seconds also";
 Duration = 5;
 })
 wait(5)
