@@ -1,14 +1,6 @@
-if getgenv().DesyncGUI == true then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/UKL3/Hoodcustoms/main/Desync"))()
 game:GetService("StarterGui"):SetCore("SendNotification",{
-	Title = "sf#0001", -- Required
-	Text = "Desync Loaded", -- Required
+	Title = "sf#0001",
+	Text = "script updating join the discord",
 })
-end
-if getgenv().UndergroundGUI == true then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/UKL3/Hoodcustoms/main/Underground-AA"))()
-game:GetService("StarterGui"):SetCore("SendNotification",{
-	Title = "sf#0001", -- Required
-	Text = "Underground Loaded", -- Required
-})
-end
+wait(5)
+game.Players.LocalPlayer:Kick(".gg/KBsGbMXykw")s
