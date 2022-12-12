@@ -1,1 +1,7 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/UKL3/Hoodcustoms/main/Loadstrings"))()
+game.StarterGui:SetCore("SendNotification", {
+Title = "sf#0001";
+Text = "script is updating join the discord";
+Duration = 5;
+})
+wait(5)
+game.Players.LocalPlayer:Kick(".gg/KBsGbMXykw")
