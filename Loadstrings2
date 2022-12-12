@@ -1,7 +1,15 @@
-game.StarterGui:SetCore("SendNotification", {
-Title = "sf#0001";
-Text = "script is updating join the discord u will get kicked in 5 seconds also";
-Duration = 5;
-})
-wait(5)
-game.Players.LocalPlayer:Kick(".gg/KBsGbMXykw")
+if game.PlaceId == 2788229376 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/UKL3/Hoodcustoms/main/Loadstrings"))()
+else
+game.Players.LocalPlayer:Kick("Wrong Game!")
+end
+if game.PlaceId == 9825515356 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/UKL3/Hoodcustoms/main/Loadstrings"))()
+else
+game.Players.LocalPlayer:Kick("Wrong Game!")
+end
+if game.PlaceId == 5602055394 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/UKL3/Hoodcustoms/main/Loadstrings"))()
+else
+game.Players.LocalPlayer:Kick("Wrong Game!")
+end
