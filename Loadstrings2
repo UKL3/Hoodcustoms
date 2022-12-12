@@ -1,0 +1,5 @@
+if game.PlaceId == 9825515356 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/UKL3/Hoodcustoms/main/Loadstrings"))()
+else
+    game.Players.LocalPlayer:Kick("Wrong game!")
+end
